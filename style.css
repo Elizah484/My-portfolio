@@ -1,0 +1,72 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin: 0cm;
+    padding: 0cm;
+    line-height: 1.6;
+    background-color: antiquewhite;
+}
+header{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background:#444;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin:0 15px;
+}
+nav ul li a {
+    color:white;
+    text-decoration: dashed;
+}
+#about image{
+    height: auto;
+    max-width:100%;
+  S  display: block;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow: 0.4px 8px rgba(0,0,0,0.1);
+}
+selection h2{
+    color: #333;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: aqua;
+}
+footer p {
+    margin: 0.5rem 0;
+}
+.social-icons img{
+    transform: scale(1.2);
+    opacity: 0.8;
+    width: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+form input,form textarea,form button{
+    width: 100%;
+    padding: 0.5rem;
+}
+form button{
+    background: #333;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background: #555;
+}
